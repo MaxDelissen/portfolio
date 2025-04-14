@@ -1,14 +1,18 @@
 $font-family-base: 'Inter', sans-serif;
-$headings-font-family: 'Poppins', sans-serif;
 
 $theme-colors: (
-"background": #F9FAFB,
-"text": #1F2937,
-"primary": #93E9BE,
-"secondary": #CAACCC,
-"tertiary": #FFA552,
+        "background": #F9FAFB,
+        "text": #1F2937,
+        "text-muted": #2f3a4d,
+        "primary": #93E9BE,
+        "secondary": #CAACCC,
+        "warning": #FFA552,
 );
 
 $grid-gutter-width: 0;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
