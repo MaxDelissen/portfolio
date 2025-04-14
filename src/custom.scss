@@ -1,0 +1,14 @@
+$font-family-base: 'Inter', sans-serif;
+$headings-font-family: 'Poppins', sans-serif;
+
+$theme-colors: (
+"background": #F9FAFB,
+"text": #1F2937,
+"primary": #93E9BE,
+"secondary": #CAACCC,
+"tertiary": #FFA552,
+);
+
+$grid-gutter-width: 0;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
