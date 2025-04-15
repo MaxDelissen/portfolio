@@ -1,5 +1,9 @@
 {
   "occupation": "Student Software Engineer",
   "subtitle": "I am studying software development and mobile app development at Fontys University of Applied Sciences in Eindhoven",
-  "see_work": "See my work"
+  "see_work": "See my work",
+  "about_me_title": "Who am I?",
+  "about_me": "I am a student software engineer with a passion for technology and innovation. I am always looking for new challenges and opportunities to improve my skills. I have experience with various programming languages and frameworks, and I am always willing to learn new things.",
+  "more_about_me": "More Details",
+  "contact_me": "Contact Me"
 }
