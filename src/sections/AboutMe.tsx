@@ -11,7 +11,7 @@ export default function HeroSection() {
         <Row className="align-items-center">
           <Col md={4} className="text-center">
             <img
-              src="../../img/ProfilePicture.jpg"
+              src="../../img/MaxWithFish.jpg"
               alt="Max Delissen"
               className="img-fluid rounded-5 shadow FixedImage"
             />
