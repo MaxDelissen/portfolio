@@ -11,7 +11,7 @@ function ProjectCard({ key, title, description, image }: ProjectCardProps) {
   return (
     <Card
       key={key}
-      className="bg-secondary text-white"
+      className="bg-secondary text-black"
       style={{
         borderRadius: "30px",
         overflow: "hidden",
