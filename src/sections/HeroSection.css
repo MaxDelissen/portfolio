@@ -5,3 +5,9 @@
     rgba(147, 233, 190, 0.6) 100%
   );
 }
+
+.text-section-wrapper {
+  padding: 1.5rem;
+  max-width: 100%;
+  box-sizing: border-box;
+}

@@ -1,8 +1,11 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import { Container, Row, Col } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 
 const Projects: React.FC = () => {
+  const { t } = useTranslation();
+
   const projects = [
     {
       id: 1,
@@ -40,27 +43,29 @@ const Projects: React.FC = () => {
   return (
     <section className="projects-section py-5">
       <Container>
-        <h2 id="projects-section" className="mb-4">
-          My Projects
-        </h2>
-        <Row className="g-4">
-          {projects.map((project) => (
-            <Col
-              key={project.id}
-              xs={12} // 1 per row on mobile
-              sm={6} // 2 per row on small screens
-              md={4} // 3 per row on medium screens
-              lg={3} // 4 per row on large screens
-            >
-              <ProjectCard
+        <div className="text-section-wrapper p-4">
+          <h2 id="projects-section" className="mb-4">
+            {t("my_projects")}
+          </h2>
+          <Row className="g-4">
+            {projects.map((project) => (
+              <Col
                 key={project.id}
-                title={project.title}
-                description={project.description}
-                image={project.image}
-              />
-            </Col>
-          ))}
-        </Row>
+                xs={12} // 1 per row on mobile
+                sm={6} // 2 per row on small screens
+                md={4} // 3 per row on medium screens
+                lg={3} // 4 per row on large screens
+              >
+                <ProjectCard
+                  key={project.id}
+                  title={project.title}
+                  description={project.description}
+                  image={project.image}
+                />
+              </Col>
+            ))}
+          </Row>
+        </div>
       </Container>
     </section>
   );

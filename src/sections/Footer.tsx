@@ -9,13 +9,18 @@ function Footer() {
 
   return (
     <footer
-      className="bg-secondary text-white text-center py-3 position-relative d-flex align-items-center"
+      className="bg-secondary text-black text-center py-3 position-relative d-flex align-items-center"
       style={{ height: "80px" }}
     >
       <div className="container">
         <p>
-          &copy; {new Date().getFullYear()} Max Delissen. All rights reserved.{" "}
-          <a href="http://www.google.com">{t("contact_me")}</a>
+          &copy; {new Date().getFullYear()}{" "}
+          <a
+            href="https://www.google.com"
+            style={{ color: "black", textDecoration: "none" }}
+          >
+            Max Delissen.
+          </a>{" "}
         </p>
         <button
           className="btn btn-sm btn-light position-absolute"

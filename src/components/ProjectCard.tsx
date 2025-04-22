@@ -1,4 +1,5 @@
 import { Card, Button } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 
 interface ProjectCardProps {
   key: number;
@@ -8,6 +9,8 @@ interface ProjectCardProps {
 }
 
 function ProjectCard({ key, title, description, image }: ProjectCardProps) {
+  const { t } = useTranslation();
+
   return (
     <Card
       key={key}
@@ -61,10 +64,10 @@ function ProjectCard({ key, title, description, image }: ProjectCardProps) {
             marginTop: "10px",
             paddingLeft: "20px",
             paddingRight: "20px",
-            width: "50%",
+            width: "55%",
           }}
         >
-          Learn more
+          {t("see_project")}
         </Button>
       </Card.Body>
     </Card>
