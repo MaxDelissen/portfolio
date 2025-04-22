@@ -1,25 +1,74 @@
-import React from "react";
-import PropTypes from "prop-types";
-import "./ProjectCard.css"; // Optional: Add styles here or import a CSS file
+import { Card, Button } from "react-bootstrap";
 
-const ProjectCard = ({ id, title, description, image }) => {
+interface ProjectCardProps {
+  key: number;
+  title: string;
+  description: string;
+  image: string;
+}
+
+function ProjectCard({ key, title, description, image }: ProjectCardProps) {
   return (
-    <div className="project-card">
-      <img src={image} alt={title} className="project-card-image" />
-      <div className="project-card-content">
-        <h3 className="project-card-title">{title}</h3>
-        <p className="project-card-description">{description}</p>
-        <span className="project-card-id">ID: {id}</span>
+    <Card
+      key={key}
+      className="bg-secondary text-white"
+      style={{
+        borderRadius: "30px",
+        overflow: "hidden",
+        height: "100%",
+      }}
+    >
+      {/* Image */}
+      <div style={{ padding: "16px", paddingBottom: "0px" }}>
+        <Card.Img
+          variant="top"
+          src={image}
+          alt={title}
+          style={{
+            borderRadius: "30px",
+            width: "100%",
+            objectFit: "cover",
+          }}
+        />
       </div>
-    </div>
-  );
-};
 
-ProjectCard.propTypes = {
-  id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-};
+      <Card.Body
+        style={{
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        {/* Title */}
+        <Card.Title
+          style={{
+            fontSize: "24px",
+          }}
+        >
+          {title}
+        </Card.Title>
+
+        {/* Description */}
+        <Card.Text style={{ fontSize: "12px", flexGrow: 1 }}>
+          {description}
+        </Card.Text>
+
+        {/* Button */}
+        <Button
+          variant="warning"
+          href={`/projects/${key}`}
+          style={{
+            borderRadius: "30px",
+            marginTop: "10px",
+            paddingLeft: "20px",
+            paddingRight: "20px",
+            width: "50%",
+          }}
+        >
+          Learn more
+        </Button>
+      </Card.Body>
+    </Card>
+  );
+}
 
 export default ProjectCard;

@@ -16,7 +16,12 @@ export default function HeroSection() {
               <h1 className="mb-2 text-text">Max Delissen</h1>
               <h2 className="mb-3 text-text-muted">{t("occupation")}</h2>
               <h3 className="mb-4 text-text-muted">{t("subtitle")}</h3>
-              <Button variant="warning" size="lg" className="rounded-5">
+              <Button
+                variant="warning"
+                size="lg"
+                className="rounded-5"
+                onClick={() => (window.location.href = "#projects-section")}
+              >
                 {t("see_work")}
               </Button>
             </div>
