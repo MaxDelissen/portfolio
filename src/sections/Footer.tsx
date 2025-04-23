@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 function Footer() {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
 
   const changeLanguage = (lang: string) => {
     i18n.changeLanguage(lang);
