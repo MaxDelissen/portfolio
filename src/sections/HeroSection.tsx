@@ -34,7 +34,7 @@ export default function HeroSection() {
           {/* Right side: image */}
           <Col md={6} className="text-center">
             <img
-              src="/public/img/ProfilePicture.jpg"
+              src="../../img/ProfilePicture.jpg"
               alt="Max Delissen"
               className="img-fluid rounded-5 shado FixedImage"
             />
