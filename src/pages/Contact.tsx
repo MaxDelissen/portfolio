@@ -10,11 +10,15 @@ function Contact({ show, onHide }: { show: boolean; onHide: () => void }) {
         <Form>
           <Form.Group className="mb-3" controlId="formName">
             <Form.Label>Name</Form.Label>
-            <Form.Control type="text" placeholder="Enter your name" />
+            <Form.Control type="text" placeholder="Enter your name" required />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formEmail">
             <Form.Label>Email</Form.Label>
-            <Form.Control type="email" placeholder="Enter your email" />
+            <Form.Control
+              type="email"
+              placeholder="Enter your email"
+              required
+            />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formPhone">
             <Form.Label>Phone</Form.Label>
@@ -26,6 +30,7 @@ function Contact({ show, onHide }: { show: boolean; onHide: () => void }) {
               as="textarea"
               rows={4}
               placeholder="Enter your message"
+              required
             />
           </Form.Group>
           <Button variant="warning" type="submit" className="w-100">
