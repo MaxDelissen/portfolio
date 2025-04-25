@@ -7,5 +7,8 @@
   "more_about_me": "Meer Informatie & CV",
   "contact_me": "Contactgegevens",
   "my_projects": "Mijn Projecten:",
-  "see_project": "Bekijk Project"
+  "see_project": "Bekijk Project",
+  "not_found": "Pagina niet gevonden",
+  "not_found_description": "Sorry, de pagina die je zoekt bestaat niet.",
+  "go_home": "Ga naar de beginpagina"
 }
