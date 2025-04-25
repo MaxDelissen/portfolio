@@ -1,71 +1,40 @@
-//AI generated code, Only for testing, needs to be rewritten.
-// This code is a simple React component for a contact form page.
+import { Button, Form, Modal } from "react-bootstrap";
 
-import React from "react";
-
-const Contact: React.FC = () => {
+function Contact({ show, onHide }: { show: boolean; onHide: () => void }) {
   return (
-    <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
-      <h1>Contact Us</h1>
-      <form style={{ maxWidth: "400px", margin: "0 auto" }}>
-        <div style={{ marginBottom: "15px" }}>
-          <label
-            htmlFor="name"
-            style={{ display: "block", marginBottom: "5px" }}
-          >
-            Name:
-          </label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            style={{ width: "100%", padding: "8px", boxSizing: "border-box" }}
-          />
-        </div>
-        <div style={{ marginBottom: "15px" }}>
-          <label
-            htmlFor="email"
-            style={{ display: "block", marginBottom: "5px" }}
-          >
-            Email:
-          </label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            style={{ width: "100%", padding: "8px", boxSizing: "border-box" }}
-          />
-        </div>
-        <div style={{ marginBottom: "15px" }}>
-          <label
-            htmlFor="message"
-            style={{ display: "block", marginBottom: "5px" }}
-          >
-            Message:
-          </label>
-          <textarea
-            id="message"
-            name="message"
-            rows={5}
-            style={{ width: "100%", padding: "8px", boxSizing: "border-box" }}
-          ></textarea>
-        </div>
-        <button
-          type="submit"
-          style={{
-            backgroundColor: "#007BFF",
-            color: "#fff",
-            padding: "10px 15px",
-            border: "none",
-            borderRadius: "5px",
-            cursor: "pointer",
-          }}
-        >
-          Submit
-        </button>
-      </form>
-    </div>
+    <Modal show={show} onHide={onHide} backdrop={true} keyboard={true}>
+      <Modal.Header closeButton>
+        <Modal.Title>Contact Me</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <Form>
+          <Form.Group className="mb-3" controlId="formName">
+            <Form.Label>Name</Form.Label>
+            <Form.Control type="text" placeholder="Enter your name" />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="formEmail">
+            <Form.Label>Email</Form.Label>
+            <Form.Control type="email" placeholder="Enter your email" />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="formPhone">
+            <Form.Label>Phone</Form.Label>
+            <Form.Control type="text" placeholder="Enter your phone number" />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="formMessage">
+            <Form.Label>Message</Form.Label>
+            <Form.Control
+              as="textarea"
+              rows={4}
+              placeholder="Enter your message"
+            />
+          </Form.Group>
+          <Button variant="warning" type="submit" className="w-100">
+            Submit
+          </Button>
+        </Form>
+      </Modal.Body>
+    </Modal>
   );
-};
+}
 
 export default Contact;

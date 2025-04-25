@@ -1,9 +1,11 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
-
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
 
-export default function HeroSection() {
+export default function AboutMe({
+  onContactClick,
+}: {
+  onContactClick: () => void;
+}) {
   const { t } = useTranslation();
 
   return (
@@ -34,11 +36,14 @@ export default function HeroSection() {
                     <Button variant="warning" size="lg" className="rounded-5">
                       {t("more_about_me")}
                     </Button>
-                    <Link to="/contact">
-                      <Button variant="warning" size="lg" className="rounded-5">
-                        {t("contact_me")}
-                      </Button>
-                    </Link>
+                    <Button
+                      variant="warning"
+                      size="lg"
+                      className="rounded-5"
+                      onClick={onContactClick}
+                    >
+                      {t("contact_me")}
+                    </Button>
                   </div>
                 </Row>
               </div>
