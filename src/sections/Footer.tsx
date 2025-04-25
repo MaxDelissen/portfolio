@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 function Footer() {
   const { i18n } = useTranslation();
@@ -13,15 +14,9 @@ function Footer() {
       style={{ height: "80px" }}
     >
       <div className="container">
-        <p>
-          &copy; {new Date().getFullYear()}{" "}
-          <a
-            href="https://www.google.com"
-            style={{ color: "black", textDecoration: "none" }}
-          >
-            Max Delissen.
-          </a>{" "}
-        </p>
+        <Link to="/contact" className="text-decoration-none text-black">
+          <p>&copy; {new Date().getFullYear()} Max Delissen.</p>
+        </Link>
         <button
           className="btn btn-sm btn-light position-absolute"
           style={{ top: "10px", right: "10px", fontSize: "2rem" }}

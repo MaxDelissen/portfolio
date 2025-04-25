@@ -1,6 +1,7 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
 
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 export default function HeroSection() {
   const { t } = useTranslation();
@@ -33,9 +34,11 @@ export default function HeroSection() {
                     <Button variant="warning" size="lg" className="rounded-5">
                       {t("more_about_me")}
                     </Button>
-                    <Button variant="warning" size="lg" className="rounded-5">
-                      {t("contact_me")}
-                    </Button>
+                    <Link to="/contact">
+                      <Button variant="warning" size="lg" className="rounded-5">
+                        {t("contact_me")}
+                      </Button>
+                    </Link>
                   </div>
                 </Row>
               </div>
