@@ -8,7 +8,6 @@ import NotFound from "./pages/NotFound.tsx";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./custom.scss";
-import Contact from "./pages/Contact.tsx";
 
 const router = createBrowserRouter([
   {
@@ -18,10 +17,6 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />,
       },
     ],
   },
