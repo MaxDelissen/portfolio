@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
             {projects.map((project) => (
               <Col key={project.id} xs={12} sm={6} md={4} lg={3}>
                 <ProjectCard
-                  key={project.id}
+                  id={project.id}
                   title={project.title}
                   // Show description based on current language
                   description={
