@@ -10,6 +10,8 @@
   "my_projects": "Mijn Projecten:",
   "see_project": "Bekijk Project",
   "not_found": "Pagina niet gevonden",
+  "project_not_found": "Project niet gevonden",
   "not_found_description": "Sorry, de pagina die je zoekt bestaat niet.",
+    "not_found_description_project": "Sorry, de detail pagina van dit project bestaat (nog) niet.",
   "go_home": "Ga naar de beginpagina"
 }

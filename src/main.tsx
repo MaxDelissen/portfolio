@@ -26,18 +26,22 @@ const router = createBrowserRouter([
   },
   {
     path: "/projects",
-    errorElement: <NotFound />,
+    errorElement: <NotFound isProject={true}/>,
     children: [
       {
         index: true,
         element: (
           <ProjectDetails
             title={"Demo Project"}
-            description={["Regel 1", "Regel 2"]}
+            description={"Hello World!"}
             images={["https://dummyimage.com/220x185/ff0000/fff.png"]}
           />
         ),
       },
+      {
+        path: "*",
+        element: <NotFound isProject={true} />,
+      }
     ],
   },
 ]);
