@@ -3,13 +3,11 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 
 import Home from "./pages/Home.tsx";
 import NotFound from "./pages/NotFound.tsx";
-
-import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./custom.scss";
 import ProjectDetails from "./pages/projects/template.tsx";
