@@ -10,6 +10,7 @@ import Home from "./pages/Home.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import "./custom.scss";
 import ProjectDetails from "./pages/projects/template.tsx";
 

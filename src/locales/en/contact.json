@@ -1,8 +1,11 @@
 {
-  "contact_title": "Contact Me",
+  "contact_title": "Contact Us",
   "contact_name": "Name",
   "contact_email": "Email",
-  "contact_phone": "Phone",
+  "contact_phone": "Phone (optional)",
   "contact_message": "Message",
-  "contact_submit": "Submit"
+  "contact_submit": "Send Message",
+  "contact_sending": "Sending...",
+  "contact_success_message": "Your message has been sent successfully!",
+  "contact_error_message": "Failed to send message. Please try again."
 }
