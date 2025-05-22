@@ -19,9 +19,9 @@ function Contact({ show, onHide }: { show: boolean; onHide: () => void }) {
   // IMPORTANT: Replace with your actual EmailJS IDs.
   // Consider using environment variables for these in a real application,
   // especially for TEMPLATE_ID and SERVICE_ID, though PUBLIC_KEY is fine on the frontend.
-  const SERVICE_ID = 'service_y7dewzn'; // e.g., 'service_xxxxxxxx'
-  const TEMPLATE_ID = 'template_szo72e7'; // e.g., 'template_xxxxxxxx'
-  const PUBLIC_KEY = 'EVtknihY9lL7H0MCX'; // e.g., 'YOUR_PUBLIC_KEY_xxxxxxxx'
+  const SERVICE_ID = 'service_y7dewzn';
+  const TEMPLATE_ID = 'template_szo72e7';
+  const PUBLIC_KEY = 'EVtknihY9lL7H0MCX';
   // -------------------------
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -65,12 +65,12 @@ function Contact({ show, onHide }: { show: boolean; onHide: () => void }) {
       </Modal.Header>
       <Modal.Body>
         {sendStatus === 'success' && (
-          <Alert variant="success" onClose={() => setSendStatus(null)} dismissible>
+          <Alert variant="success" className="bg-primary text-bg-primary" onClose={() => setSendStatus(null)} dismissible>
             {t("contact_success_message")}
           </Alert>
         )}
         {sendStatus === 'error' && (
-          <Alert variant="danger" onClose={() => setSendStatus(null)} dismissible>
+          <Alert variant="danger" className="bg-danger-subtle text-danger" onClose={() => setSendStatus(null)} dismissible>
             {t("contact_error_message")}
           </Alert>
         )}
