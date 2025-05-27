@@ -1,0 +1,36 @@
+/* src/pages/ProjectPage.css */
+.project-page {
+    font-family: Arial, sans-serif; /* Example font */
+}
+
+.project-description-text {
+    line-height: 1.6;
+    text-align: justify; /* Justify text as seen in the image */
+}
+
+.project-carousel {
+    border: 1px solid #ddd; /* Add a subtle border to the carousel */
+    border-radius: 5px;
+    overflow: hidden; /* Ensures images stay within the border radius */
+}
+
+.project-carousel-image {
+    max-height: 400px; /* Limit image height to prevent excessive stretching */
+    object-fit: contain; /* Ensures the image fits within the bounds without cropping */
+}
+
+.github-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+    .project-carousel, .image-placeholder {
+        height: auto !important; /* Allow carousel height to adjust on smaller screens */
+        margin-bottom: 20px; /* Add some space below the carousel on small screens */
+    }
+}

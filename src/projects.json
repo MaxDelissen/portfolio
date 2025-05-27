@@ -2,118 +2,144 @@
   {
     "id": 1,
     "title": "Cubegame",
-    "description_nl": "Een mobiele game gemaakt in Unity, waarbij de speler een kubus tussen verschillende obstakels moet navigeren. Dit was een van mijn eerste projecten, ontwikkeld in de derde klas van de middelbare school.",
-    "description_en": "A mobile game made in Unity where the player navigates a cube through various obstacles. One of my first projects, developed during my third year of high school.",
+    "description_nl": "Een mobiele game gemaakt in Unity, waarbij de speler een kubus tussen verschillende obstakels moet navigeren.",
+    "details_nl": "Dit was een van mijn eerste projecten, ontwikkeld in de derde klas van de middelbare school.",
+    "description_en": "A mobile game made in Unity where the player navigates a cube through various obstacles.",
+    "details_en": "One of my first projects, developed during my third year of high school.",
     "language": "C# (Unity)",
     "type": "fullstack",
-    "image": ""
+    "images": []
   },
   {
     "id": 2,
     "title": "Fitschool",
-    "description_nl": "Een Windows Forms-applicatie ontwikkeld tijdens semester 1, bedoeld voor scholen. Kinderen kunnen leerzame spelletjes spelen, hiermee punten verdienen en die inruilen voor spulletjes in een shop. Gemaakt als softwareontwikkelaar, inclusief backend en deel frontend.",
-    "description_en": "A Windows Forms application developed during semester 1, aimed at schools. Children can play educational games, earn points, and spend them in a virtual shop. Built as a software developer, including both backend and part frontend.",
+    "description_nl": "Een Windows Forms-applicatie ontwikkeld tijdens semester 1, bedoeld voor scholen. Kinderen kunnen leerzame spelletjes spelen, hiermee punten verdienen en die inruilen voor spulletjes in een shop.",
+    "details_nl": "Gemaakt als softwareontwikkelaar, inclusief backend en deel frontend.",
+    "description_en": "A Windows Forms application developed during semester 1, aimed at schools. Children can play educational games, earn points, and spend them in a virtual shop.",
+    "details_en": "Built as a software developer, including both backend and part frontend.",
     "language": "C# (Windows Forms)",
     "type": "fullstack",
-    "image": ""
+    "images": []
   },
   {
     "id": 3,
     "title": "Printforge",
-    "description_nl": "Een individueel project uit semester 2: een .NET MVC-website waar gebruikers 3D-printerbestanden kunnen zoeken en downloaden. De site ondersteunt tags, zoekfunctionaliteit en categorisatie van objecten.",
-    "description_en": "An individual project from semester 2: a .NET MVC website where users can search and download 3D printer files. The platform includes support for tags, search functionality, and categorization of objects.",
+    "description_nl": "Een individueel project uit semester 2: een .NET MVC-website waar gebruikers 3D-printerbestanden kunnen zoeken en downloaden.",
+    "details_nl": "De site ondersteunt tags, zoekfunctionaliteit en categorisatie van objecten.",
+    "description_en": "An individual project from semester 2: a .NET MVC website where users can search and download 3D printer files.",
+    "details_en": "The platform includes support for tags, search functionality, and categorization of objects.",
     "language": "C# (.NET MVC)",
     "type": "fullstack",
-    "image": ""
+    "images": []
   },
   {
     "id": 4,
     "title": "Rockstars project semester 2",
-    "description_nl": "De backend van de opdracht voor team Rockstars. Een webapplicatie waar managers health checks kunnen beheren, die squads op locatie invullen om feedback te geven over hun opdrachtgevers.",
-    "description_en": "The backend of the semester 2 assignment for team Rockstars. A web application where managers manage health checks that squads fill out on location to provide feedback about their clients.",
+    "description_nl": "De backend van de opdracht voor team Rockstars, waar managers vragenlijsten kunnen sturen naar hun medewerkers om feedback te verzamelen.",
+    "details_nl": "Een webapplicatie waar managers health checks kunnen beheren, die squads op locatie invullen om feedback te geven over hun opdrachtgevers.",
+    "description_en": "The backend of the semester 2 assignment for team Rockstars. Managers can send questionnaires to their employees to gather feedback.",
+    "details_en": "A web application where managers manage health checks that squads fill out on location to provide feedback about their clients.",
     "language": "C# (.NET)",
     "type": "backend",
-    "image": ""
+    "images": []
   },
   {
     "id": 5,
     "title": "Shop website",
-    "description_nl": "Een webshop waar gebruikers zelfgemaakte spullen kunnen verkopen. De site bevat tags en een zoekfunctie. Gebruikers kunnen inloggen, items aan hun winkelwagen toevoegen, bewerken en een aankoop simuleren. Gebouwd met een .NET API en een React frontend.",
-    "description_en": "A web shop where users can sell homemade items. It includes tagging and a search function. Users can log in, add items to their cart, edit it, and simulate a purchase. Built with a .NET API and a React frontend.",
+    "description_nl": "Een webshop waar gebruikers zelfgemaakte spullen kunnen verkopen. De site bevat tags en een zoekfunctie. Gebruikers kunnen inloggen, items aan hun winkelwagen toevoegen, bewerken en een aankoop simuleren.",
+    "details_nl": "Gebouwd met een .NET API en een React frontend.",
+    "description_en": "A web shop where users can sell homemade items. It includes tagging and a search function. Users can log in, add items to their cart, edit it, and simulate a purchase.",
+    "details_en": "Built with a .NET API and a React frontend.",
     "language": "C# (.NET API), TypeScript (React)",
     "type": "fullstack",
-    "image": ""
+    "images": []
   },
   {
     "id": 6,
     "title": "lmstudio",
-    "description_nl": "Een NuGet-package voor .NET waarmee je eenvoudig verbinding kunt maken met een lokaal draaiende LLM (zoals LM Studio). Ideaal voor het integreren van AI-functionaliteit in je eigen applicaties. Momenteel al 650+ downloads.",
-    "description_en": "A NuGet package for .NET that allows easy connection to a locally running LLM (like LM Studio). Ideal for integrating AI features into your own applications. Currently over 650 downloads.",
+    "description_nl": "Een NuGet-package voor .NET waarmee je eenvoudig verbinding kunt maken met een lokaal draaiende LLM (zoals LM Studio).",
+    "details_nl": "Ideaal voor het integreren van AI-functionaliteit in je eigen applicaties. Momenteel al 650+ downloads.",
+    "description_en": "A NuGet package for .NET that allows easy connection to a locally running LLM (like LM Studio).",
+    "details_en": "Ideal for integrating AI features into your own applications. Currently over 650 downloads.",
     "language": "C# (.NET)",
     "type": "backend",
-    "image": ""
+    "images": []
   },
   {
     "id": 7,
     "title": "Band Manager Application",
-    "description_nl": "Een webapplicatie die bands en hun managers helpt bij het efficiënt organiseren van evenementen, boekingen en bandactiviteiten. Met rolgebaseerde toegang kunnen gebruikers zoals bandmanagers, leden en beheerders bandprofielen aanmaken, optredens plannen en details beheren zoals soundchecks, setlists, locaties en taken. Het systeem houdt boekingsfasen bij en faciliteert communicatie en coördinatie binnen de band.",
-    "description_en": "A web-based tool that helps bands and their managers efficiently organize events, bookings, and band-related activities. With role-based access control, users such as band managers, members, and administrators can create band profiles, schedule performances, and manage details like soundchecks, set lists, venues, and tasks. The system tracks booking stages and facilitates communication and coordination within the band.",
+    "description_nl": "Een webapplicatie die bands en hun managers helpt bij het efficiënt organiseren van evenementen, boekingen en bandactiviteiten.",
+    "details_nl": "Met rolgebaseerde toegang kunnen gebruikers zoals bandmanagers, leden en beheerders bandprofielen aanmaken, optredens plannen en details beheren zoals soundchecks, setlists, locaties en taken. Het systeem houdt boekingsfasen bij en faciliteert communicatie en coördinatie binnen de band.",
+    "description_en": "A web-based tool that helps bands and their managers efficiently organize events, bookings, and band-related activities.",
+    "details_en": "With role-based access control, users such as band managers, members, and administrators can create band profiles, schedule performances, and manage details like soundchecks, set lists, venues, and tasks. The system tracks booking stages and facilitates communication and coordination within the band.",
     "language": "C# (.NET), TypeScript (React)",
     "type": "fullstack",
-    "image": ""
+    "images": []
   },
   {
     "id": 8,
     "title": "Containervervoer opdracht",
-    "description_nl": "Een CLI-applicatie en API die containers stapelt op basis van vooraf gedefinieerde regels, met als doel de stapel zo laag mogelijk te houden. Gericht op optimalisatie van containerhoogte.",
-    "description_en": "A CLI application and API that stacks containers based on predefined rules, aiming to minimize the overall stack height. Focused on container stacking optimization.",
+    "description_nl": "Een CLI-applicatie en API die containers stapelt op basis van vooraf gedefinieerde regels.",
+    "details_nl": "Met als doel de stapel zo laag mogelijk te houden. Gericht op optimalisatie van containerhoogte.",
+    "description_en": "A CLI application and API that stacks containers based on predefined rules.",
+    "details_en": "Aiming to minimize the overall stack height. Focused on container stacking optimization.",
     "language": "C# (.NET)",
     "type": "backend",
-    "image": ""
+    "images": []
   },
   {
     "id": 9,
     "title": "Greenwheels calculator",
-    "description_nl": "Een CLI-applicatie die de verwachte kosten berekent voor het huren van deelauto's van Greenwheels. Het houdt rekening met het aantal huururen, gereden kilometers, het type voertuig (klein, middel, bestelbus) en het abonnementstype (soms, regelmatig, vaak). Het kiest automatisch de voordeligste optie per voertuigtype, inclusief het overwegen van een abonnement.",
-    "description_en": "A CLI application that calculates the expected costs for renting Greenwheels car-sharing vehicles. It factors in rental hours, kilometers driven, vehicle type (small, medium, van), and subscription type (occasional, regular, frequent). It automatically selects the most cost-effective option per vehicle type, including considering subscriptions.",
+    "description_nl": "Een CLI-applicatie die de verwachte kosten berekent voor het huren van deelauto's van Greenwheels.",
+    "details_nl": "Het houdt rekening met het aantal huururen, gereden kilometers, het type voertuig (klein, middel, bestelbus) en het abonnementstype (soms, regelmatig, vaak). Het kiest automatisch de voordeligste optie per voertuigtype, inclusief het overwegen van een abonnement.",
+    "description_en": "A CLI application that calculates the expected costs for renting Greenwheels car-sharing vehicles.",
+    "details_en": "It factors in rental hours, kilometers driven, vehicle type (small, medium, van), and subscription type (occasional, regular, frequent). It automatically selects the most cost-effective option per vehicle type, including considering subscriptions.",
     "language": "C# (.NET)",
     "type": "backend",
-    "image": ""
+    "images": []
   },
   {
     "id": 10,
     "title": "Digitale fotolijst",
-    "description_nl": "Een digitale fotolijst voor mijn opa en oma die automatisch foto's ophaalt uit een gedeeld Google Foto's-album en deze als slideshow toont. Toekomstige uitbreidingen kunnen een kalender, herinneringen of zelfs videobellen omvatten. Backend in C#, frontend in React. Draait op een Raspberry Pi Zero 2W in een 3D-geprinte behuizing.",
-    "description_en": "A digital photo frame for my grandparents that automatically fetches photos from a shared Google Photos album and displays them as a slideshow. Future enhancements may include a calendar, reminders, or even video calling. Backend in C#, frontend in React. Runs on a Raspberry Pi Zero 2W inside a 3D-printed case.",
+    "description_nl": "Een digitale fotolijst voor mijn opa en oma die automatisch foto's ophaalt uit een gedeeld Google Foto's-album en deze als slideshow toont.",
+    "details_nl": "Toekomstige uitbreidingen kunnen een kalender, herinneringen of zelfs videobellen omvatten. Backend in C#, frontend in React. Draait op een Raspberry Pi Zero 2W in een 3D-geprinte behuizing.",
+    "description_en": "A digital photo frame for my grandparents that automatically fetches photos from a shared Google Photos album and displays them as a slideshow.",
+    "details_en": "Future enhancements may include a calendar, reminders, or even video calling. Backend in C#, frontend in React. Runs on a Raspberry Pi Zero 2W inside a 3D-printed case.",
     "language": "C# (.NET), TypeScript (React)",
     "type": "fullstack",
-    "image": ""
+    "images": []
   },
   {
     "id": 11,
     "title": "Bus vertraging Dials",
-    "description_nl": "Een project met twee wijzers, zoals in een auto, die de vertraging van mijn bus in minuten aangeven en de locatie van de bus tonen. Dit helpt me om te bepalen wanneer ik naar de bushalte moet lopen. Het gebruikt servo's en een ESP32.",
-    "description_en": "A project with two dials, similar to a car's dashboard, showing bus delay in minutes and the bus's current location. It helps me decide when to walk to the bus stop. Uses servos and an ESP32.",
+    "description_nl": "Een project met twee wijzers, zoals in een auto, die de vertraging van mijn bus in minuten aangeven en de locatie van de bus tonen.",
+    "details_nl": "Dit helpt me om te bepalen wanneer ik naar de bushalte moet lopen. Het gebruikt servo's en een ESP32.",
+    "description_en": "A project with two dials, similar to a car's dashboard, showing bus delay in minutes and the bus's current location.",
+    "details_en": "It helps me decide when to walk to the bus stop. Uses servos and an ESP32.",
     "language": "C++",
     "type": "embedded/backend",
-    "image": ""
+    "images": []
   },
   {
     "id": 12,
     "title": "Grumble",
-    "description_nl": "Een Flutter-applicatie ontwikkeld in semester 4 waarmee gebruikers klachten kunnen opnemen en beheren via spraakinput. De app zet spraakopnames om in tekst met behulp van de OpenAI API en organiseert deze in een overzichtelijke interface.",
-    "description_en": "A Flutter application developed in semester 4 that allows users to record and manage complaints using voice input. The app transcribes voice recordings into text using OpenAI's API and organizes them into an easy-to-navigate interface.",
+    "description_nl": "Een Flutter-applicatie ontwikkeld in semester 4 waarmee gebruikers klachten kunnen opnemen en beheren via spraakinput.",
+    "details_nl": "De app zet spraakopnames om in tekst met behulp van de OpenAI API en organiseert deze in een overzichtelijke interface.",
+    "description_en": "A Flutter application developed in semester 4 that allows users to record and manage complaints using voice input.",
+    "details_en": "The app transcribes voice recordings into text using OpenAI's API and organizes them into an easy-to-navigate interface.",
     "language": "Dart (Flutter)",
     "type": "fullstack",
-    "image": ""
+    "images": []
   },
   {
     "id": 13,
     "title": "Obeypay",
-    "description_nl": "Een Flutter matchmaking-app ontwikkeld in semester 4 waarin gebruikers matches kiezen op basis van beschikbaarheid om geld te betalen. De app is verdeeld in golddiggers en paypigs en biedt een veilige, gestructureerde omgeving voor findom-ervaringen.",
-    "description_en": "A Flutter matchmaking app developed in semester 4 where users pick matches based on availability to pay money. The app is divided into golddiggers and paypigs, providing a safe and structured space for findom experiences.",
+    "description_nl": "Een Flutter matchmaking-app ontwikkeld in semester 4 waarin gebruikers matches kiezen op basis van beschikbaarheid om geld te betalen.",
+    "details_nl": "De app is verdeeld in golddiggers en paypigs en biedt een veilige, gestructureerde omgeving voor findom-ervaringen.",
+    "description_en": "A Flutter matchmaking app developed in semester 4 where users pick matches based on availability to pay money.",
+    "details_en": "The app is divided into golddiggers and paypigs, providing a safe and structured space for findom experiences.",
     "language": "Dart (Flutter)",
     "type": "fullstack",
-    "image": ""
+    "images": []
   }
 ]

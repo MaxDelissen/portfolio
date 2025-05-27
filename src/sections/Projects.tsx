@@ -29,7 +29,7 @@ const Projects: React.FC = () => {
                       : project.description_en
                   }
                   image={
-                    project.image ||
+                    project.images[0] ||
                     "https://dummyimage.com/220x185/ff0000/fff.png"
                   }
                 />

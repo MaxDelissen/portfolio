@@ -2,47 +2,27 @@ import "./i18n.ts";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from "@vercel/analytics/react";
 
 import Home from "./pages/Home.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import createProjectPage from "./pages/projects/ProjectLoader.tsx";
 
 import "./custom.scss";
-import ProjectDetails from "./pages/projects/template.tsx";
+
+function DynamicProjectPage() {
+  const { projectId } = useParams();
+  const id = parseInt(projectId || "", 10);
+  return isNaN(id) ? <NotFound isProject={true} /> : createProjectPage(id);
+}
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    errorElement: <NotFound />,
-    children: [
-      {
-        index: true,
-        element: <Home />,
-      },
-    ],
-  },
-  {
-    path: "/projects",
-    errorElement: <NotFound isProject={true}/>,
-    children: [
-      {
-        index: true,
-        element: (
-          <ProjectDetails
-            title={"Demo Project"}
-            description={"Hello World!"}
-            images={["https://dummyimage.com/220x185/ff0000/fff.png"]}
-          />
-        ),
-      },
-      {
-        path: "*",
-        element: <NotFound isProject={true} />,
-      }
-    ],
-  },
+  { path: "/", errorElement: <NotFound />, children: [{ index: true, element: <Home /> }] },
+  { path: "/projects/:projectId", element: <DynamicProjectPage />, errorElement: <NotFound isProject={true} /> },
+  { path: "*", element: <NotFound /> },
 ]);
 
 createRoot(document.getElementById("root")!).render(
