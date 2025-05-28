@@ -8,7 +8,16 @@
     "details_en": "One of my first projects, developed during my third year of high school.",
     "language": "C# (Unity)",
     "type": "fullstack",
-    "images": []
+    "images": [
+      "https://i.imgur.com/AaA0CfY.png",
+      "https://i.imgur.com/i9vrwtu.png",
+      "https://i.imgur.com/1qR5iUd.png",
+      "https://i.imgur.com/2DfzSu3.png",
+      "https://i.imgur.com/gUzGKfF.png",
+      "https://i.imgur.com/B27054Y.png",
+      "https://i.imgur.com/a535hI2.png"
+    ],
+    "github": "https://github.com/MaxDelissen/Cubegame"
   },
   {
     "id": 2,
@@ -19,7 +28,8 @@
     "details_en": "Built as a software developer, including both backend and part frontend.",
     "language": "C# (Windows Forms)",
     "type": "fullstack",
-    "images": []
+    "images": [],
+    "github": "https://github.com/MaxDelissen/Fitschool"
   },
   {
     "id": 3,
@@ -30,7 +40,8 @@
     "details_en": "The platform includes support for tags, search functionality, and categorization of objects.",
     "language": "C# (.NET MVC)",
     "type": "fullstack",
-    "images": []
+    "images": [],
+    "github": "https://github.com/MaxDelissen/PrintForge"
   },
   {
     "id": 4,
@@ -52,7 +63,8 @@
     "details_en": "Built with a .NET API and a React frontend.",
     "language": "C# (.NET API), TypeScript (React)",
     "type": "fullstack",
-    "images": []
+    "images": [],
+    "github": "https://github.com/MaxDelissen/EPS3_API"
   },
   {
     "id": 6,
@@ -63,7 +75,8 @@
     "details_en": "Ideal for integrating AI features into your own applications. Currently over 650 downloads.",
     "language": "C# (.NET)",
     "type": "backend",
-    "images": []
+    "images": [],
+    "github": "https://github.com/MaxDelissen/LM-Studio"
   },
   {
     "id": 7,
@@ -85,7 +98,8 @@
     "details_en": "Aiming to minimize the overall stack height. Focused on container stacking optimization.",
     "language": "C# (.NET)",
     "type": "backend",
-    "images": []
+    "images": [],
+    "github": "https://github.com/MaxDelissen/Container_voervoer_2.0"
   },
   {
     "id": 9,
@@ -96,18 +110,20 @@
     "details_en": "It factors in rental hours, kilometers driven, vehicle type (small, medium, van), and subscription type (occasional, regular, frequent). It automatically selects the most cost-effective option per vehicle type, including considering subscriptions.",
     "language": "C# (.NET)",
     "type": "backend",
-    "images": []
+    "images": [],
+    "github": "https://github.com/MaxDelissen/GreenWheels-Cost-Calculator"
   },
   {
     "id": 10,
     "title": "Digitale fotolijst",
     "description_nl": "Een digitale fotolijst voor mijn opa en oma die automatisch foto's ophaalt uit een gedeeld Google Foto's-album en deze als slideshow toont.",
-    "details_nl": "Toekomstige uitbreidingen kunnen een kalender, herinneringen of zelfs videobellen omvatten. Backend in C#, frontend in React. Draait op een Raspberry Pi Zero 2W in een 3D-geprinte behuizing.",
+    "details_nl": "Toekomstige uitbreidingen kunnen een kalender, herinneringen of zelfs videobellen omvatten. Backend in C#, frontend in React. Draait op een Raspberry Pi Zero 2W in een 3D-geprinte behuizing. Hieronder vind u een github link, maar er zijn nog 2 repositories over, welke te vinden zijn op mijn github.",
     "description_en": "A digital photo frame for my grandparents that automatically fetches photos from a shared Google Photos album and displays them as a slideshow.",
-    "details_en": "Future enhancements may include a calendar, reminders, or even video calling. Backend in C#, frontend in React. Runs on a Raspberry Pi Zero 2W inside a 3D-printed case.",
+    "details_en": "Future enhancements may include a calendar, reminders, or even video calling. Backend in C#, frontend in React. Runs on a Raspberry Pi Zero 2W inside a 3D-printed case. Below is a GitHub link, but there are two more repositories available on my GitHub.",
     "language": "C# (.NET), TypeScript (React)",
     "type": "fullstack",
-    "images": []
+    "images": [],
+    "github": "https://github.com/MaxDelissen/Digital-Photo-Frame"
   },
   {
     "id": 11,
@@ -129,7 +145,8 @@
     "details_en": "The app transcribes voice recordings into text using OpenAI's API and organizes them into an easy-to-navigate interface.",
     "language": "Dart (Flutter)",
     "type": "fullstack",
-    "images": []
+    "images": [],
+    "github": "https://github.com/MaxDelissen/Grumble"
   },
   {
     "id": 13,
@@ -140,6 +157,7 @@
     "details_en": "The app is divided into golddiggers and paypigs, providing a safe and structured space for findom experiences.",
     "language": "Dart (Flutter)",
     "type": "fullstack",
-    "images": []
+    "images": [],
+    "github": "https://github.com/MaxDelissen/ObeyPay"
   }
 ]

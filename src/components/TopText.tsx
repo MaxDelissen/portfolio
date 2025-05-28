@@ -12,6 +12,9 @@ function TopBar(props: TopBarProps) {
       className="top-bar"
       style={{
         backgroundImage: `url(${props.backgroundImage})`,
+        backgroundSize: "contain", // Ensures the image covers the entire area
+        backgroundPosition: "center", // Centers the image
+        width: "100%", // Ensures full width
       }}
     >
       <div className="top-bar-overlay">

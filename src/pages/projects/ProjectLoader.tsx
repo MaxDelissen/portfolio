@@ -17,7 +17,7 @@ function createProjectPage(projectId: number) {
         "https://dummyimage.com/600x400/00ff15/fff",
         "https://dummyimage.com/600x400/000/fff",
       ]}
-      githubLink="https://github.com/your-repo"
+      githubLink= {project.github ?? "github.com/MaxDelissen"}
     />
   );
 }

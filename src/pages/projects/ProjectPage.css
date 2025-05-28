@@ -1,55 +1,16 @@
-/* src/pages/ProjectPage.css */
-.project-page {
-    font-family: Arial, sans-serif; /* Example font */
-}
-
-.project-description-text {
-    line-height: 1.6;
-    text-align: justify; /* Justify text as seen in the image */
-}
-
 .project-carousel {
-    border: 1px solid #ddd; /* Add a subtle border to the carousel */
+    width: 600px; /* Fixed width for the carousel */
+    height: 400px; /* Fixed height for the carousel */
+    border: 1px solid #ddd;
     border-radius: 5px;
-    overflow: hidden; /* Ensures images stay within the border radius */
+    overflow: hidden;
+    display: flex; /* Ensures proper alignment of images */
+    justify-content: center;
+    align-items: center;
 }
 
 .project-carousel-image {
-    max-height: 400px; /* Limit image height to prevent excessive stretching */
-    object-fit: contain; /* Ensures the image fits within the bounds without cropping */
-}
-
-.github-button {
-    display: inline-flex;
-    align-items: center;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.project-page-container {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-@media (min-width: 768px) {
-  .project-page-container {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .project-page-container {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-}
-
-/* Responsive adjustments */
-@media (max-width: 767.98px) {
-    .project-carousel, .image-placeholder {
-        height: auto !important; /* Allow carousel height to adjust on smaller screens */
-        margin-bottom: 20px; /* Add some space below the carousel on small screens */
-    }
+    width: 100%; /* Ensures the image fills the carousel width */
+    height: 100%; /* Ensures the image fills the carousel height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
 }
