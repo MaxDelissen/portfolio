@@ -58,7 +58,7 @@ function ProjectCard({ id, title, description, image }: ProjectCardProps) {
         {/* Button */}
         <Button
           variant="warning"
-          href={`/projects/${title.replace(/\s+/g, "-").toLowerCase()}`}
+          href={`/projects/${id}`}
           style={{
             borderRadius: "30px",
             marginTop: "10px",
