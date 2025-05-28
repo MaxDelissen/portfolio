@@ -6,6 +6,10 @@
   position: relative;
   width: 100%;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); /* Improves text visibility */
 }
 
 .top-bar-overlay {
@@ -28,4 +32,6 @@
   font-weight: bold;
   z-index: 1;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  font-size: 3rem;
+  text-align: center;
 }
