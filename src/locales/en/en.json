@@ -7,5 +7,10 @@
   "more_about_me": "More Details & CV",
   "contact_me": "Contact Me",
   "my_projects": "My Projects:",
-  "see_project": "Learn More"
+  "see_project": "Learn More",
+  "not_found": "Page not found",
+  "project_not_found": "Project not found",
+  "not_found_description": "Sorry, the page you are looking for does not exist.",
+    "not_found_description_project": "Sorry, the detail page for this project does not exist (yet).",
+  "go_home": "Go to the homepage"
 }

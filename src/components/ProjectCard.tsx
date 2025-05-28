@@ -2,18 +2,18 @@ import { Card, Button } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 
 interface ProjectCardProps {
-  key: number;
+  id: number;
   title: string;
   description: string;
   image: string;
 }
 
-function ProjectCard({ key, title, description, image }: ProjectCardProps) {
+function ProjectCard({ id, title, description, image }: ProjectCardProps) {
   const { t } = useTranslation();
 
   return (
     <Card
-      key={key}
+      key={id}
       className="bg-secondary text-black"
       style={{
         borderRadius: "30px",
@@ -58,7 +58,7 @@ function ProjectCard({ key, title, description, image }: ProjectCardProps) {
         {/* Button */}
         <Button
           variant="warning"
-          href={`/projects/${key}`}
+          href={`/projects/${id}`}
           style={{
             borderRadius: "30px",
             marginTop: "10px",
